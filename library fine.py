@@ -8,6 +8,9 @@ elif days-15<=5:
 elif days-15>=5 and days-15<=10:
     fine=(days-15)*1.80
     print("The fine amount :",float(fine))
+elif days-15<10:
+    fine=0
+    print("The fine is zero")
 else :
     fine=(days-15)*100
     print("The fine amount :",int(fine))
