@@ -14,6 +14,6 @@ elif days-15<10:
 else :
     fine=(days-15)*100
     print("The fine amount :",int(fine))
-print("hello world!")
+print("hello world!")..
     
 
