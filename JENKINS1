@@ -1,6 +1,5 @@
 pipeline{
  agent any
- tool name: 'Default', type: 'git'
  stages{
   stage('build'){
   steps{
