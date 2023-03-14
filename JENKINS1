@@ -13,7 +13,7 @@ pipeline{
     }
     stage('deploy'){
     steps{
-    echp 'Deploying a file'
+    echo 'Deploying a file'
     }
     }
    }
